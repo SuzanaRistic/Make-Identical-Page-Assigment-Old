@@ -1,0 +1,240 @@
+@import 'variables'; 
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.home{
+background-image: url(../images/negative-space-black-forest-dawn.jpg);
+height: 100vh;
+background-size: cover;
+background-position: center;
+}
+
+ul {
+display: flex;
+justify-content: flex-end;
+list-style-type: none;
+background-color: rgba(181, 178, 178, 0.139);
+}
+
+ul li{
+padding: 15px;
+}
+
+ul li a{
+color: $text-color;
+text-decoration: none;
+}
+
+ul li a:hover{
+text-decoration: underline;
+}
+
+h1 {
+position: absolute;
+top: 40%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-size: x-large;
+font-style: bold;
+color: $text-color;
+}
+p1 {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-size: large;
+color: $text-color;
+}
+
+p2 {
+position: absolute;
+top: 60%;
+left: 50%;
+text-align: center;
+transform: translate(-50%, -50%);
+font-size: large;
+color: $text-color;
+}
+
+.about {
+height: 100vh;
+}
+
+h2{
+position: absolute;
+top: 105%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: $text-color-secondary;
+}
+
+.rakib{
+position: absolute;
+top: 150%;
+left: 50%;
+text-align: center;
+font-size: small;
+transform: translate(-50%, -50%);
+color:$text-color-secondary;
+}
+
+.aboutrakib {
+border-radius: 5px;
+width: 400px;
+height: 50px;
+background-color: $bg-color;
+margin: 40px;
+text-align: left;
+padding: 20px;
+font-size: medium;
+}
+.alexandra{
+position: absolute;
+top: 220%;
+left: 50%;
+text-align: center;
+font-size: small;
+transform: translate(-50%, -50%);
+color: $text-color-secondary;
+}
+.aboutalexandra {
+border-radius: 5px;
+width: 400px;
+height: 50px;
+background-color:$bg-color;
+margin: 40px;
+text-align: left;
+padding: 20px;
+font-size: medium;
+}
+
+.lasse{
+position: absolute;
+top: 290%;
+left: 50%;
+text-align: center;
+font-size: small;
+transform: translate(-50%, -50%);
+color:$text-color-secondary;
+}
+.aboutlasse {
+border-radius: 5px;
+width: 300px;
+height: 50px;
+background-color: $bg-color;
+margin: 40px;
+text-align: center;
+padding: 20px;
+font-size: medium;
+}
+
+.sebastian{
+position: absolute;
+top: 360%;
+left: 50%;
+text-align: center;
+font-size: small;
+transform: translate(-50%, -50%);
+color: $text-color-secondary;
+}
+.aboutsebastian {
+border-radius: 5px;
+width: 350px;
+height: 50px;
+background-color: $bg-color;
+margin: 40px;
+text-align: left;
+padding: 20px;
+font-size: medium;
+}
+.fas {
+font-size: x-large;
+}
+
+.down {
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    font-size: xx-large;
+    color: $text-color;
+}
+
+.footer {
+background-color: $text-color-secondary;
+font-size: large;
+color: $text-color;
+position: absolute;
+top: 400%;
+width: 100%;
+height: 500px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+}
+
+.adress {
+width:200px;
+line-height: 30px;
+}
+
+.info {
+width: 200px;
+line-height: 30px;
+
+}
+.socialamedier {
+
+width: 95px;
+margin-right: 100px;
+line-height: 30px;
+}
+
+@media screen and (min-width: 1024px) {
+
+h2{
+    top: 110%;
+}
+
+.rakib{
+    left: 30%;
+}
+
+.alexandra{
+    top: 150%;
+    left: 70%;
+}
+
+.lasse{
+    top: 220%;
+    left: 30%;
+}
+
+.sebastian{
+    top: 220%;
+    left: 70%;
+}
+
+.footer {
+    top: 260%;
+    width: 100%;
+    height: 200px;
+    flex-direction: row;
+}
+    
+.adress {
+    margin-top: 100px;
+    height: 200px;
+}
+.info {
+    margin-top: 100px;
+    height: 200px;
+}
+.socialamedier {
+    margin-top: 100px;
+    height: 200px;
+}
+    }
